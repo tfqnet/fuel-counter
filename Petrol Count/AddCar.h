@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AddCar.h
 //  Petrol Count
 //
 //  Created by PETRONAS ICT SDN BHD on 22/04/2017.
@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//start
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface AddCar : UIViewController
 
 @end
-

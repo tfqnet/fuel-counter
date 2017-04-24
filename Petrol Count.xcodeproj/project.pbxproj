@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		0CEC2BDE1EAA74EA000C2576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BDD1EAA74EA000C2576 /* main.m */; };
 		0CEC2BE11EAA74EA000C2576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BE01EAA74EA000C2576 /* AppDelegate.m */; };
-		0CEC2BE41EAA74EA000C2576 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BE31EAA74EA000C2576 /* MasterViewController.m */; };
-		0CEC2BE71EAA74EA000C2576 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BE61EAA74EA000C2576 /* DetailViewController.m */; };
 		0CEC2BEA1EAA74EA000C2576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC2BE81EAA74EA000C2576 /* Main.storyboard */; };
 		0CEC2BEC1EAA74EA000C2576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC2BEB1EAA74EA000C2576 /* Assets.xcassets */; };
 		0CEC2BEF1EAA74EA000C2576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC2BED1EAA74EA000C2576 /* LaunchScreen.storyboard */; };
+		0CEC2BF71EAA771F000C2576 /* fuelDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC2BF61EAA771F000C2576 /* fuelDB.sqlite */; };
+		0CEC2BFC1EAA775C000C2576 /* AddCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BFB1EAA775C000C2576 /* AddCar.m */; };
+		0CEC2BFF1EAA784D000C2576 /* carList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2BFE1EAA784D000C2576 /* carList.m */; };
+		0CEC2C041EAA7986000C2576 /* DataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C011EAA7986000C2576 /* DataTable.m */; };
+		0CEC2C051EAA7986000C2576 /* DBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C031EAA7986000C2576 /* DBController.m */; };
+		0CEC2C0A1EAA79B0000C2576 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEC2C091EAA79B0000C2576 /* libsqlite3.0.tbd */; };
+		0CEC2C131EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C0C1EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.m */; };
+		0CEC2C141EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C0E1EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.m */; };
+		0CEC2C151EAA80CF000C2576 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C101EAA80CF000C2576 /* TPKeyboardAvoidingTableView.m */; };
+		0CEC2C161EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC2C121EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,28 @@
 		0CEC2BDD1EAA74EA000C2576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CEC2BDF1EAA74EA000C2576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CEC2BE01EAA74EA000C2576 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CEC2BE21EAA74EA000C2576 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0CEC2BE31EAA74EA000C2576 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0CEC2BE51EAA74EA000C2576 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0CEC2BE61EAA74EA000C2576 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0CEC2BE91EAA74EA000C2576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CEC2BEB1EAA74EA000C2576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEC2BEE1EAA74EA000C2576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEC2BF01EAA74EA000C2576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEC2BF61EAA771F000C2576 /* fuelDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = fuelDB.sqlite; sourceTree = "<group>"; };
+		0CEC2BFA1EAA775C000C2576 /* AddCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCar.h; sourceTree = "<group>"; };
+		0CEC2BFB1EAA775C000C2576 /* AddCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCar.m; sourceTree = "<group>"; };
+		0CEC2BFD1EAA784D000C2576 /* carList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carList.h; sourceTree = "<group>"; };
+		0CEC2BFE1EAA784D000C2576 /* carList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carList.m; sourceTree = "<group>"; };
+		0CEC2C001EAA7986000C2576 /* DataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTable.h; sourceTree = "<group>"; };
+		0CEC2C011EAA7986000C2576 /* DataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTable.m; sourceTree = "<group>"; };
+		0CEC2C021EAA7986000C2576 /* DBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBController.h; sourceTree = "<group>"; };
+		0CEC2C031EAA7986000C2576 /* DBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBController.m; sourceTree = "<group>"; };
+		0CEC2C091EAA79B0000C2576 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0CEC2C0B1EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		0CEC2C0C1EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		0CEC2C0D1EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		0CEC2C0E1EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0CEC2C0F1EAA80CF000C2576 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		0CEC2C101EAA80CF000C2576 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		0CEC2C111EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		0CEC2C121EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEC2C0A1EAA79B0000C2576 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,7 @@
 			children = (
 				0CEC2BDB1EAA74EA000C2576 /* Petrol Count */,
 				0CEC2BDA1EAA74EA000C2576 /* Products */,
+				0CEC2C081EAA79B0000C2576 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,14 +87,12 @@
 			children = (
 				0CEC2BDF1EAA74EA000C2576 /* AppDelegate.h */,
 				0CEC2BE01EAA74EA000C2576 /* AppDelegate.m */,
-				0CEC2BE21EAA74EA000C2576 /* MasterViewController.h */,
-				0CEC2BE31EAA74EA000C2576 /* MasterViewController.m */,
-				0CEC2BE51EAA74EA000C2576 /* DetailViewController.h */,
-				0CEC2BE61EAA74EA000C2576 /* DetailViewController.m */,
 				0CEC2BE81EAA74EA000C2576 /* Main.storyboard */,
 				0CEC2BEB1EAA74EA000C2576 /* Assets.xcassets */,
 				0CEC2BED1EAA74EA000C2576 /* LaunchScreen.storyboard */,
 				0CEC2BF01EAA74EA000C2576 /* Info.plist */,
+				0CEC2BF91EAA7730000C2576 /* class */,
+				0CEC2BF81EAA7725000C2576 /* resources */,
 				0CEC2BDC1EAA74EA000C2576 /* Supporting Files */,
 			);
 			path = "Petrol Count";
@@ -82,6 +104,69 @@
 				0CEC2BDD1EAA74EA000C2576 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CEC2BF81EAA7725000C2576 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2C071EAA7997000C2576 /* Library */,
+				0CEC2BF61EAA771F000C2576 /* fuelDB.sqlite */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		0CEC2BF91EAA7730000C2576 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2BFD1EAA784D000C2576 /* carList.h */,
+				0CEC2BFE1EAA784D000C2576 /* carList.m */,
+				0CEC2BFA1EAA775C000C2576 /* AddCar.h */,
+				0CEC2BFB1EAA775C000C2576 /* AddCar.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		0CEC2C061EAA798C000C2576 /* EasySQLite */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2C001EAA7986000C2576 /* DataTable.h */,
+				0CEC2C011EAA7986000C2576 /* DataTable.m */,
+				0CEC2C021EAA7986000C2576 /* DBController.h */,
+				0CEC2C031EAA7986000C2576 /* DBController.m */,
+			);
+			name = EasySQLite;
+			sourceTree = "<group>";
+		};
+		0CEC2C071EAA7997000C2576 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2C171EAA80D5000C2576 /* TPKeyboard */,
+				0CEC2C061EAA798C000C2576 /* EasySQLite */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		0CEC2C081EAA79B0000C2576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2C091EAA79B0000C2576 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CEC2C171EAA80D5000C2576 /* TPKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC2C0B1EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.h */,
+				0CEC2C0C1EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.m */,
+				0CEC2C0D1EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.h */,
+				0CEC2C0E1EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.m */,
+				0CEC2C0F1EAA80CF000C2576 /* TPKeyboardAvoidingTableView.h */,
+				0CEC2C101EAA80CF000C2576 /* TPKeyboardAvoidingTableView.m */,
+				0CEC2C111EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				0CEC2C121EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +200,7 @@
 				TargetAttributes = {
 					0CEC2BD81EAA74EA000C2576 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 8L747LC4EE;
+						DevelopmentTeam = TAJ2N4Z9TV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,6 +231,7 @@
 				0CEC2BEF1EAA74EA000C2576 /* LaunchScreen.storyboard in Resources */,
 				0CEC2BEC1EAA74EA000C2576 /* Assets.xcassets in Resources */,
 				0CEC2BEA1EAA74EA000C2576 /* Main.storyboard in Resources */,
+				0CEC2BF71EAA771F000C2576 /* fuelDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +242,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEC2C041EAA7986000C2576 /* DataTable.m in Sources */,
+				0CEC2C141EAA80CF000C2576 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				0CEC2BFC1EAA775C000C2576 /* AddCar.m in Sources */,
+				0CEC2C151EAA80CF000C2576 /* TPKeyboardAvoidingTableView.m in Sources */,
 				0CEC2BE11EAA74EA000C2576 /* AppDelegate.m in Sources */,
-				0CEC2BE41EAA74EA000C2576 /* MasterViewController.m in Sources */,
+				0CEC2BFF1EAA784D000C2576 /* carList.m in Sources */,
 				0CEC2BDE1EAA74EA000C2576 /* main.m in Sources */,
-				0CEC2BE71EAA74EA000C2576 /* DetailViewController.m in Sources */,
+				0CEC2C051EAA7986000C2576 /* DBController.m in Sources */,
+				0CEC2C131EAA80CF000C2576 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				0CEC2C161EAA80CF000C2576 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +371,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8L747LC4EE;
+				DEVELOPMENT_TEAM = TAJ2N4Z9TV;
 				INFOPLIST_FILE = "Petrol Count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfqnet.Petrol-Count";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfqnet.FuelTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -291,10 +384,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8L747LC4EE;
+				DEVELOPMENT_TEAM = TAJ2N4Z9TV;
 				INFOPLIST_FILE = "Petrol Count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfqnet.Petrol-Count";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfqnet.FuelTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
